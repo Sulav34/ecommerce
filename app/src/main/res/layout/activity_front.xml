@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context=".ui.FrontActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Welcome"
+      android:gravity="center"
+      android:textSize="30dp"
+      android:layout_marginTop="100dp"
+      android:textColor="#ff6600"
+      android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#ff6600"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMBK WEARS"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#ff6600"
+        android:fontFamily="cursive"/>
+
+
+            <Button
+                android:id="@+id/btnloginfront"
+                android:layout_width="230dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="90dp"
+                android:text="Login"
+                android:textSize="20dp"
+                android:layout_marginLeft="90dp"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/arrow"
+                android:backgroundTint="#ff6600"
+                />
+
+            <Button
+                android:id="@+id/btnregistrationfront"
+                android:layout_width="230dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:text="Registration"
+                android:textSize="20dp"
+                android:layout_marginLeft="90dp"
+                android:textColor="@color/black"
+                android:drawableRight="@drawable/arrow"
+                android:backgroundTint="#ff6600"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

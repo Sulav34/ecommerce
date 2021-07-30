@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.AboutActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="About us"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="left"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+
+        android:src="@drawable/line"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMBK Wears is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the internet using a web browser or a mobile."
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="We know that your time is valuable and sometimes every minute in the day counts. That's why we deliver!! You can find quality products here."
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="SMBK WEARS"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/black"
+        android:text="''Find it, Love it, Buy it''"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="cursive"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/lineoppo"/>
+
+
+</LinearLayout>

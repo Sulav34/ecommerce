@@ -1,0 +1,4 @@
+include ':mylibrary'
+include ':onlineshoppingwear'
+include ':app'
+rootProject.name = "EcommerceSiteforOnlineShopping"
